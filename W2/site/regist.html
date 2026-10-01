@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title>Games and Multimedia</title>
+</head>
+<body>
+<header id="title">
+		<div id="logo">
+			<a href="index.html">
+				<img alt="Logo of Games and Multimedia" src="img/logo.png"/>
+			</a>
+		</div>
+		<h1>Games and Multimedia</h1>
+	</header>
+	<nav>
+        <ul>
+            <li><a href="index.html">Goals</a></li>
+            <li><a href="index.html#learningOut">Learning Outcomes</a></li>
+            <li><a href="curricularPlan.html">Curricular Plan</a></li>
+            <li class="sel"><a href="regist.html">Registration</a></li>
+        </ul>	
+	</nav>
+<section id="main">
+	<h2>Registration</h2>	
+	<p>
+		Subscribe to receive more information about <span class="emph">"Games and Multimedia"</span>!
+	</p>
+	
+	<form action="#" method="post">
+			<fieldset>
+				<legend>General Information</legend> 
+				<label for="idName">Name:</label><input type="text" id="idName" name="name"><br>
+				<label for="idEmail">Email:</label><input type="text" id="idEmail" name="email" ><br>
+				<label for="idPassword">Password:</label><input type="password" id="idPassword" name="pass" ><br>
+				<label for="idCPassword">Confirm password:</label><input type="password" id="idCPassword" name="confirm_pass"><br>
+				<label for="idRegion">Region:</label>
+				<select id="idRegion" name="region">
+					<option value="N">North</option>
+					<option value="C">Center</option>
+					<option value="S">South</option>
+					<option value="I">Islands</option>
+					<option value="O">Other</option>
+				</select>
+				<fieldset>
+					<legend>Gender</legend> 
+					<input type="radio" id="idGenderM" name="gender" value="M"><label for="idGenderM">Male</label>
+					<input type="radio" id="idGenderF" name="gender" value="F"><label for="idGenderF">Female</label>
+				</fieldset>
+			</fieldset>
+			<br>
+			<fieldset>
+				<p>How did you hear about "Games and Multimedia"?</p>
+				<input type="checkbox" id="idAboutInfoC" name="aboutInfo" value="C"><label for="idAboutInfoC">By colleagues</label> 
+				<input type="checkbox" id="idAboutInfoR" name="aboutInfo" value="N"><label for="idAboutInfoR">Newspapers and magazines</label>
+				<br>
+				<input type="checkbox" id="idAboutInfoI" name="aboutInfo" value="I"><label for="idAboutInfoI">Internet</label>
+				<input type="checkbox" id="idAboutInfoO" name="aboutInfo" value="O"><label for="idAboutInfoO">Other</label>
+			</fieldset>
+			<br>
+			<div id="buttons">
+				<input type="submit" name="submit" value="Submit" >
+				<input type="reset" name="reset" value="Reset" >
+			</div>
+	</form>
+	</section>
+		<footer id="others">
+	<p>
+		See <a href="curricularPlan.html">Curricular Plan</a> and fill out the <a href="regist.html">registration form</a> to receive more information.
+	</p>
+	</footer>
+</body>
+</html>
+
+
